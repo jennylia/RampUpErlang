@@ -5,7 +5,7 @@
 calculate_avg(X) ->
 	calculate_avg(X,0,0).
 
-%usually the props wrap these in tail recursive helper functions
+%usually the pros wrap these in tail recursive helper functions
 %following Bryan Hunter example
 %
 calculate_avg([H|T], Length, Sum) ->
